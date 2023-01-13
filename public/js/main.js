@@ -20,6 +20,7 @@ console.log(document.getElementsByClassName('important')[document.getElementsByC
 // ### 8. Affiche l'élément qui succède celui qui succède a l'élément ayant comme id "textGeneral" 
 console.log(document.getElementById('textGeneral').nextElementSibling);
 // ### 9. En partant du span Nom affiche l'élément "p" (ayant un span Prénom)
+console.log(document.getElementsByTagName('span')[document.getElementsByTagName('span').length - 1].parentElement.previousElementSibling.firstElementChild);
 // ### 10. En partant de Nicolas, affiche Primo
 // ### 11. Trouve une methode de récupération qui permet de récupérer "un" élément via sa class ou son id sans utiliser getElementById ou getElementsByClassName et récupère "grandParagraphe"
 // ### 12. Trouve une methode qui permet de récupérer plusieurs éléments, qu'ils aient des class ou non et affiche tous les li dansu ne boucle

@@ -12,6 +12,7 @@ console.log(document.getElementsByTagName('h3')[1].previousElementSibling);
 // ### 4. Affiche l'élément qui succède a petitParagraphe en utilisant la méthode nextElementSibling
 console.log(document.getElementsByTagName('p')[1].nextElementSibling);
 // ### 5. Affiche le parent des éléments ayant comme class "important" 
+console.log(document.querySelector('.important').parentElement);
 // ### 6. Affiche le premier enfant, du parent de "listElements"
 // ### 7. Affiche l'élément qui succède le dernier élément ayant la class "important"
 // ### 8. Affiche l'élément qui succède celui qui succède a l'élément ayant comme id "textGeneral" 

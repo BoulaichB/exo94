@@ -14,6 +14,7 @@ console.log(document.getElementsByTagName('p')[1].nextElementSibling);
 // ### 5. Affiche le parent des éléments ayant comme class "important" 
 console.log(document.querySelector('.important').parentElement);
 // ### 6. Affiche le premier enfant, du parent de "listElements"
+console.log(document.getElementById('listElements').parentElement.firstElementChild);
 // ### 7. Affiche l'élément qui succède le dernier élément ayant la class "important"
 // ### 8. Affiche l'élément qui succède celui qui succède a l'élément ayant comme id "textGeneral" 
 // ### 9. En partant du span Nom affiche l'élément "p" (ayant un span Prénom)

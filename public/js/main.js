@@ -6,6 +6,7 @@
 // ### 1. Affiche le h3 qui est le premier enfant de la div content
 console.log(document.getElementsByTagName('div')[0].firstElementChild);
 // ### 2. Affiche le titreNiv3
+console.log(document.getElementsByTagName('h3')[1]);
 // ### 3. Affiche l'élément qui précède le titreNiv3
 // ### 4. Affiche l'élément qui succède a petitParagraphe en utilisant la méthode nextElementSibling
 // ### 5. Affiche le parent des éléments ayant comme class "important" 
